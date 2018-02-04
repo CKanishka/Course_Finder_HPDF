@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: flagellum12-hasura
+  data: null
+  kubeContext: flagellum12
+  name: flagellum12
